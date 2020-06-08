@@ -1,0 +1,42 @@
+body{
+    margin: auto;
+    width: 960px;
+    background-color: #dddddd;
+    padding: 0px;
+    background: url(../_Videos/fundo.gif) repeat-x;
+}
+#cab img{
+    float: left;
+}
+#social{
+    float: right;
+    margin-top: 60px;
+}
+#social img{
+    width: 32px;
+    height: 32px;
+}
+#menu{
+    float: left;
+    margin-top: 93px;
+    width: 453px;
+}
+#menu ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(to bottom,#dddddd, #666666 );
+}
+#menu li{
+    height: 57px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+    border-right: 1px solid #062;
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
