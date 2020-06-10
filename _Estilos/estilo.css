@@ -1,3 +1,4 @@
+/*Formatação do index*/
 .fixFloat{
     clear: both;
 }
@@ -7,6 +8,7 @@ body{
     background-color: #dddddd;
     padding: 0px;
     background: url(../_Videos/fundo.gif) repeat-x;
+    overflow: scroll-y;
 }
 #cab img{
     float: left;
@@ -117,4 +119,4 @@ details[open]{
     background: #26e064;
     margin-top: 10px;
 }
-
+/*Formatação de contatos*/
