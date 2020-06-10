@@ -91,3 +91,30 @@ footer p{
     width: 316px;
     text-align: center;
 }
+
+/*Formatação da página Modulos*/
+details{
+    margin-top: 30px;
+    cursor: pointer
+}
+details p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+}
+summary{
+    height: 30px;
+    background: linear-gradient(to bottom, #eeeeee, #999999);
+    font: 12pt Arial;
+    font-weight: bold;
+    padding: 10px 0px 0px 10px;
+}
+details[open] summary{
+    color: #ffffff;
+    background: #062;
+}
+details[open]{
+    background: #26e064;
+    margin-top: 10px;
+}
+
