@@ -1,3 +1,6 @@
+.fixFloat{
+    clear: both;
+}
 body{
     margin: auto;
     width: 960px;
@@ -39,4 +42,52 @@ body{
     text-decoration: none;
     font-size: 20px;
     color: #ffffff;
+}
+#banner{
+    margin-top: 15px;
+}
+#banner img{
+    width: 960px;
+}
+#lateral{
+    float:right;
+    background-color: #dddddd;
+    width: 190px;
+    padding: 5px;
+}
+#lateral h1{
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 1px #000000 solid;
+    margin-top: -5px;
+}
+#lateral h2{
+    font-size: 15px;
+}
+#lateral p{
+    text-align: justify;
+}
+#main{
+    background-color: #dddddd;
+    width: 730px;
+    padding: 5px;
+}
+#main h1{
+    font-size: 20pt;
+    border-bottom: #000000 solid 1px;
+}
+#main h2{
+    font-size: 15px;
+}
+#main p{
+    text-align: justify;
+}
+footer{
+    color: #888888;
+    border: #000000 solid 1px;
+}
+footer p{
+    display: inline-block;
+    width: 316px;
+    text-align: center;
 }
